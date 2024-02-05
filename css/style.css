@@ -4,6 +4,7 @@ body{
 /* style contenuto pagina */
 .page{
     margin: 1%;
+    padding: 0;
 }
 /* style contenuto banner */
 nav {
@@ -19,6 +20,7 @@ nav {
 /* style header e carosello immagini */
 h1{
     margin-bottom: 0;
+    font-size: 3em;
 }
 
 h4, h5 {
