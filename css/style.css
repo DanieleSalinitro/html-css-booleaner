@@ -56,3 +56,21 @@ thead{
 .riga-dispari{
     background-color: #b2e4f2 ;
 }
+
+#box1{
+    background-image: url(../img/monitor.jpg);
+}
+#box2{
+    background-image: url(../img/graph.jpg);
+   
+}
+.image-description{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.image-description h3{
+    color: white;
+    padding: 5px;
+}
