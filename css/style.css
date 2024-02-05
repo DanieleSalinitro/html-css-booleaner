@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+.page{
+    margin: 1%;
+}
 nav {
     background-image: url("../img/pattern.png");
     background-size: 40%;
@@ -10,4 +13,18 @@ nav {
 .title{
     padding-top: 5%;
     padding-right: 80%;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h4, h5 {
+    color:gray;
+    margin: 0;
+}
+
+h6 {
+    margin: 0;
+    font-weight: 100;
 }
