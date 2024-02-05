@@ -1,9 +1,11 @@
 body{
     margin: 0;
 }
+/* style contenuto pagina */
 .page{
     margin: 1%;
 }
+/* style contenuto banner */
 nav {
     background-image: url("../img/pattern.png");
     background-size: 40%;
@@ -14,7 +16,7 @@ nav {
     padding-top: 5%;
     padding-right: 80%;
 }
-
+/* style header e carosello immagini */
 h1{
     margin-bottom: 0;
 }
@@ -27,4 +29,30 @@ h4, h5 {
 h6 {
     margin: 0;
     font-weight: 100;
+}
+
+/* style tabella */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+}
+
+td{
+    width: 10%;
+}
+
+.description{
+    width: 30%;
+}
+
+thead{
+    background-color: #1fa9e5;
+    color: white;
+}
+
+.riga-dispari{
+    background-color: #b2e4f2 ;
 }
