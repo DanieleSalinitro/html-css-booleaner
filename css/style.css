@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+nav {
+    background-image: url("../img/pattern.png");
+    background-size: 40%;
+    background-color: #4ea0ff;
+}
+
+.title{
+    padding-top: 5%;
+    padding-right: 80%;
+}
