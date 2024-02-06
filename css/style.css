@@ -1,34 +1,39 @@
+*{
+        box-sizing: border-box;
+}
+
 body{
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 /* style contenuto pagina */
-.page{
-    margin: 1%;
+main{
     padding: 0;
 }
-/* style contenuto banner */
-nav {
+/* style header */
+header {
     background-image: url("../img/pattern.png");
     background-size: 40%;
     background-color: #4ea0ff;
+    padding-top: 80px ;
 }
 
-.title{
-    padding-top: 5%;
-    padding-right: 80%;
+#logo img{
+    height: 70px;
 }
-/* style header e carosello immagini */
+
+/* style titolo articolo e carosello immagini */
 h1{
     margin-bottom: 0;
     font-size: 3em;
 }
 
-h4, h5 {
+.text-gray{
     color:gray;
     margin: 0;
 }
 
-h6 {
+figcaption {
     margin: 0;
     font-weight: 100;
 }
@@ -42,12 +47,8 @@ th{
     text-align: left;
 }
 
-td{
-    width: 10%;
-}
-
 .description{
-    width: 30%;
+    width: 50%;
 }
 
 thead{
@@ -55,7 +56,7 @@ thead{
     color: white;
 }
 
-.riga-dispari{
+.row-odd{
     background-color: #b2e4f2 ;
 }
 
